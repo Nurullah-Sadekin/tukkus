@@ -4,5 +4,5 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=FILE_NAME.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.GIT_USER_NAME -DartifactId=GIT_REPO_NAME -Dversion=VERSION -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=tukkus.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.Nurullah-Sadekin -DartifactId=tukkus -Dversion=1.1 -Dpackaging=aar -DgeneratePom=true
